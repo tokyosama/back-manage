@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkback_manage"]=self["webpackChunkback_manage"]||[]).push([[939],{7939:function(e,n,a){a.r(n),a.d(n,{default:function(){return l}});var u=function(){var e=this;e._self._c;return e._m(0)},t=[function(){var e=this,n=e._self._c;return n("div",[n("h2",[e._v("pageone")])])}],r={name:"page1"},c=r,s=a(1001),f=(0,s.Z)(c,u,t,!1,null,"051be442",null),l=f.exports}}]);
+//# sourceMappingURL=939.7fcc848f.js.map

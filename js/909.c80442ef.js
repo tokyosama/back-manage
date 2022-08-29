@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkback_manage"]=self["webpackChunkback_manage"]||[]).push([[909],{2909:function(n,e,a){a.r(e),a.d(e,{default:function(){return l}});var u=function(){var n=this;n._self._c;return n._m(0)},t=[function(){var n=this,e=n._self._c;return e("div",[e("h2",[n._v("页面2")])])}],r={name:"page2"},c=r,f=a(1001),s=(0,f.Z)(c,u,t,!1,null,"94df44d4",null),l=s.exports}}]);
+//# sourceMappingURL=909.c80442ef.js.map
