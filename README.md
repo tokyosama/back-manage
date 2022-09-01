@@ -1,19 +1,33 @@
 # back-manage
 
-## Project setup
-```
-npm install
-```
+### 项目描述：基于vue2的通用后台管理系统,后台数据使用mock.js模拟。
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### 主要技术：
 
-### Compiles and minifies for production
-```
-npm run build
-```
+1.vuex实现通过store模式动态添加路由和token存储
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+2.axios二次封装请求
+
+3.element-ui+echarts图表数据可视化
+
+4.mock.js 手动模拟后台图表,用户,前端路由数据,配合store容器实现不同权限的用户加载不同的菜单路由,
+
+5.用户数据的增加,删除,修改,搜索框查询用户功能
+
+
+
+[项目展示]: https://tokyosama.github.io/back-manage/
+
+用户名: sa  密码:123  
+
+**数据展示**：进入首页看板展示echarts图表数据,通过侧边菜单栏按钮切换不同的界面, header区域的面包屑和header下方的tabs有联动关系,也可以删除下方tabs或者通过tabs切换
+
+**用户管理**：用户管理界面上方有新增用户按钮和搜索框可以增加用户或者对数据层面进行过滤从而达到搜索用户的目的，下方用户数据table能够对每个用户数据进行编辑删除,底部有分页栏进行分页管理
+
+**权限控制**：点击首页右上角头像进行登出，输入另一个账号:jia 密码:123  侧边栏只有首页和商品管理
+
+ 
+
+
+
+
