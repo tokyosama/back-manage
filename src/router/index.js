@@ -18,15 +18,18 @@ const routes = [
       // { path: 'page1', name: 'page1', component: () => import('@/views/Other/pageOne.vue') },
       // { path: 'page2', name: 'page2', component: () => import('@/views/Other/pageTwo.vue') },
 
-
-
     ]
   },
   {
     path: '/login',
     name: 'login',
     component: () => import('@/views/Login/Login.vue')
-  }
+  },
+  {
+    path: "*",
+    name: 'not-found',
+    component: () => import('@/views/NotFound/NotFound.vue')
+  },
 ]
 
 

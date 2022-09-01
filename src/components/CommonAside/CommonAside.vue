@@ -3,11 +3,11 @@
         <el-menu default-active="1-4-1" class="el-menu-vertical-demo" background-color="#545c64" text-color="#fff"
             active-text-color="#ffd04b" @open="handleOpen" @close="handleClose" :collapse="this.isClose">
             <h3>{{ isClose ? '后台' : 'xx后台管理系统' }}</h3>
-            <el-menu-item v-for="item in noChildren" :key="item.path" :index="item.path" @click="clickMenu(item)">
+            <el-menu-item v-for="item in noChildren" :key="item.path" :index="item.path" @click="clickMenu(item)" >
                 <i :class="'el-icon-' + item.icon"></i>
                 <span slot="title">{{ item.label }}</span>
             </el-menu-item>
-            <el-submenu v-for="item in hasChildren" :key="item.path" :index="item.path">
+            <el-submenu v-for="item in hasChildren" :key="item.path" :index="item.path" >
                 <template slot="title">
                     <i :class="'el-icon-' + item.icon"></i>
                     <span slot="title">{{ item.label }}</span>
@@ -51,6 +51,9 @@ export default {
 
             menu:[]
         };
+    },
+    props:{
+        sure:Boolean
     },
     methods: {
         handleOpen(key, keyPath) {
